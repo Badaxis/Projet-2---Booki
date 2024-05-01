@@ -72,11 +72,6 @@
         padding: 0 20px;
     }
 
-    .recherche-entry {
-        text-align: left;
-        padding-left: 25px;
-    }
-
     .recherche-button {
         margin-left: -15px;
         border-radius: 15px;
@@ -105,8 +100,9 @@
     .filtres-buttons button {
         font-size: 14px;
         width: 50%;
-        max-width: 200px;
-        padding: 0;
+        padding-right: 0;
+        text-align: start;
+        text-wrap: nowrap;
     }
 
     #hebergements-and-populaires {
